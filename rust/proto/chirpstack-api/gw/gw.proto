@@ -79,6 +79,9 @@ enum TxAckStatus {
 
     // Internal error.
     INTERNAL_ERROR = 10;
+
+    // Duty cycle overflow.
+    DUTY_CYCLE_OVERFLOW = 11;
 }
 
 message UplinkTXInfo {

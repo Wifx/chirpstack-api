@@ -1090,6 +1090,7 @@ export interface TxAckStatusMap {
   GPS_UNLOCKED: 8;
   QUEUE_FULL: 9;
   INTERNAL_ERROR: 10;
+  DUTY_CYCLE_OVERFLOW: 11;
 }
 
 export const TxAckStatus: TxAckStatusMap;

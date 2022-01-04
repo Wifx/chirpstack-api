@@ -8100,7 +8100,8 @@ proto.gw.TxAckStatus = {
   TX_POWER: 7,
   GPS_UNLOCKED: 8,
   QUEUE_FULL: 9,
-  INTERNAL_ERROR: 10
+  INTERNAL_ERROR: 10,
+  DUTY_CYCLE_OVERFLOW: 11
 };
 
 goog.object.extend(exports, proto.gw);
